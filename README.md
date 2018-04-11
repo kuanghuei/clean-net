@@ -9,7 +9,7 @@ CleanNet is a joint neural embedding network for learning image classification i
 ![CleanNet](cleannet.png)
 
 ### Selected examples of CleanNet predictions
-“F” denotes cosine similarity predicted by model using verification labels in all classes. “D” denotes cosine similarity under transfer learning (50/101 classes are excluded for Food-101N, including ramen and garlic bread). Class names and verification labels are shown at bottom-left.
+“F” denotes cosine similarity predicted by model using verification labels in all classes. “D” denotes cosine similarity under transfer learning (50/101 classes are excluded for Food-101N, including ramen, garlic bread, and cheese plate). Class names and verification labels are shown at bottom-left.
 
 ![Example](examples.png)
 
