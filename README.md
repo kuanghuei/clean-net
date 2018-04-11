@@ -4,11 +4,11 @@ This is CleanNet, the Tensorflow implementation of [CleanNet: Transfer Learning 
 ## CleanNet
 CleanNet is a joint neural embedding network for learning image classification in presence of label noise and label noise detection. To reduce the amount of human supervision for label noise cleaning, it only requires a fraction of the classes being manually verified to provide the knowledge of label noise that can be transferred to other classes.
 
-###Model architecture
+### Model architecture
 
 ![CleanNet](cleannet.png)
 
-###Selected examples of CleanNet predictions
+### Selected examples of CleanNet predictions
 “F” denotes cosine similarity predicted by model using verification labels in all classes. “D” denotes cosine similarity under transfer learning (50/101 classes are excluded for Food-101N, including ramen and garlic bread). Class names and verification labels are shown at bottom-left.
 
 ![Example](examples.png)
