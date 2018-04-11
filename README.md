@@ -1,5 +1,5 @@
 # Introduction
-This is CleanNet, the Tensorflow implementation of [CleanNet: Transfer Learning for Scalable Image Classifier Training with Label Noise](https://arxiv.org/abs/1711.07131) from Microsoft AI and Research.
+This is CleanNet, the Tensorflow implementation of [CleanNet: Transfer Learning for Scalable Image Classifier Training with Label Noise](https://arxiv.org/abs/1711.07131) ([project page](https://kuanghuei.github.io/CleanNetProject/)) from Microsoft AI and Research. 
 
 ## CleanNet
 CleanNet is a joint neural embedding network for learning image classification in presence of label noise and label noise detection. To reduce the amount of human supervision for label noise cleaning, it only requires a fraction of the classes being manually verified to provide the knowledge of label noise that can be transferred to other classes.
