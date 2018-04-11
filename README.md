@@ -40,17 +40,17 @@ If you use the code in your paper, then please cite it as:
 
 
 ### Prepare Data
-CleanNet works on feature vectors. In original paper, we use feature vectors extracted from pool5 layer of ResNet-50 models to represent images. Here, we assume that you already have an h-dimensional feature vector for each image.
+CleanNet works on feature vectors. In original paper, we use feature vectors extracted from the pool5 layer of pre-trained ResNet-50 models to represent images. Here, we assume that each image is represented by an h-dimensional feature vector.
 
-For training and validation sets with verification labels, you will need to prepare an tsv file for each of them, where the columns are:
+For training and validation sets with verification labels, you need to prepare an tsv file for each of them, where the columns are:
 [sample key, class name, verification label, h-dimensional feature delimited by ','] or
 [sample key, image url, class name, verification label, h-dimensional feature delimited by ','].
 
-For all image samples, you will need to prepare a tsv file (without verification labels), where the columns are:
+For all image samples, including those with and without verification labels, you need to prepare a tsv file, where the columns are:
 [sample key, class name, h-dimensional feature delimited by ','] or
 [sample key, image url, class name, h-dimensional feature delimited by ','].
 
-You will also need to prepare a text file that lists the class names. Note that the order of class names imples the class id being used internally in CleanNet code.
+You will also need to prepare a text file that lists the unique class names.
 
 
 ### Data Pre-processing
