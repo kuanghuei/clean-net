@@ -127,7 +127,7 @@ class CleanNet(object):
                 biases_initializer=tf.zeros_initializer())
 
             if is_training:
-                h = tf.nn.dropout(h0, keep_prob=self.keep_prob)
+                h0 = tf.nn.dropout(h0, keep_prob=self.keep_prob)
             
             h = tf.contrib.layers.fully_connected(inputs=h0, 
                 num_outputs=256,
